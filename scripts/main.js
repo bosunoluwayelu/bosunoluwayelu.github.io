@@ -22,7 +22,7 @@ function SetUserName() {
     }
     else {
         localStorage.setItem('name', userName);
-    pgHeader.textContent = 'Mozilla is Cool'
+        pgHeader.textContent = 'Mozilla is Cool'
     }
 
     if (!localStorage.getItem('name')) {
